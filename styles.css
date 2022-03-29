@@ -1,23 +1,26 @@
+
 body {
   margin: 0;
   text-align: center;
+
 }
 
 h1 {
   margin: 0;
   color: #45b29a;
-  font-family:cursive;
+  font-family: 'Merriweather', serif;
+
 }
 
 h2 {
-  font-family:cursive;
   color: #45b29a;
+  font-family: 'Lobster', cursive;
 }
 
 p {
   font-style: normal;
   color: #45b29a;
-  font-family: cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 hr {
@@ -44,8 +47,8 @@ button {
   }
 
 #headlines {
-  font-family:cursive;
   font-weight: 500px;
+  font-family: 'Sacramento', cursive;
 }
 
 #div-one {
@@ -78,3 +81,4 @@ button {
   font-size: 1.5em;
   color: #545454;
 }
+
