@@ -1,0 +1,111 @@
+body {
+  background-color: #E0EBE8;
+  text-align: center;
+  padding-top: 5%;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  align-items: center;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+  text-shadow: 10px;
+  border-width: thick;
+  margin: 10% 0;
+  position: static;
+  margin-left: 45%;
+
+}
+
+h1 {
+  font-size: 2em;
+  color: #45b29a;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2em;
+  color: #45b29a;
+  font-family: 'Sacramento', cursive;
+  display: inline;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 2;
+  font-style: normal;
+  color: #545454;
+  margin: 0 20%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/************************ First Row Structure. ************************/
+
+
+.headline {
+  width: 60%;
+  padding: 5% 0 10% 0;
+}
+
+.mountain-img {
+  width: 100%;
+}
+
+.cloud-position1 {
+  position: absolute;
+  top: 110%;
+  right: 10%;
+  height: 40%;
+  width: 20%;
+
+}
+.cloud-position2 {
+  position: absolute;
+  top: 130%;
+  left: 15%;
+  height: 30%;
+  width: 15%;
+}
+
+
+/******************* First Row Structure *********************************/
+
+
+
+.bottom-div {
+  margin: 10% 0;
+  background-color: #45b29a;
+  height: 3em;
+  -webkit-border-radius:5px;
+  width: 15%;
+  border-width: 0;
+  font-size: 1em;
+  color: #1b7f69;
+  margin: 100px auto;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+
+
+.content-me {
+  padding-top: 1%;
+  background-color: #45b29a;
+  height: 80px;
+  width: 100%;
+}
+
+
+.links {
+  padding: 1%;
+}
