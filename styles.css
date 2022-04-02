@@ -28,6 +28,7 @@ h1 {
   font-size: 2em;
   color: #45b29a;
   font-family: 'Sacramento', cursive;
+  font-weight: bold;
 }
 
 h2 {
@@ -35,11 +36,13 @@ h2 {
   color: #45b29a;
   font-family: 'Sacramento', cursive;
   display: inline;
+  font-weight: bold;
 }
 
 p {
   font-size: 1.2em;
   line-height: 2;
+  margin: 0 10%;
   font-style: normal;
   color: #545454;
   font-family: 'Quicksand', sans-serif;
@@ -61,7 +64,7 @@ p {
 
 .cloud-position1 {
   position: absolute;
-  top: 300px;
+  top: 200px;
   right: 100px;
   height: 40%;
   width: 30%;
@@ -69,7 +72,7 @@ p {
 }
 .cloud-position2 {
   position: absolute;
-  top: 400px;
+  top: 250px;
   left: 15%;
   height: 30%;
   width: 20%;
