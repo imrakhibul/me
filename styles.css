@@ -62,15 +62,15 @@ p {
 
 .cloud-position1 {
   position: absolute;
-  top: 110%;
-  right: 10%;
+  top: 650px;
+  right: 100px;
   height: 40%;
   width: 20%;
 
 }
 .cloud-position2 {
   position: absolute;
-  top: 130%;
+  top: 750px;
   left: 15%;
   height: 30%;
   width: 15%;
@@ -101,7 +101,7 @@ p {
 .content-me {
   padding-top: 1%;
   background-color: #45b29a;
-  height: 80px;
+  height: 150px;
   width: 100%;
 }
 
