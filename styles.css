@@ -1,113 +1,107 @@
-body {
-  background-color: #E0EBE8;
-  text-align: center;
-  padding-top: 5%;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rakhibul Ahmed - a programmer</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="web-icon.ico">
 
-img {
-  height: 15%;
-  width: 15%;
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  align-items: center;
-  border-color: grey;
-  border-width: 5px;
-  width: 10%;
-  text-shadow: 10px;
-  border-width: thick;
-  margin: 10% 0;
-  position: static;
-  margin-left: 45%;
+    <div style="padding-bottom: 200px;">
+      <img style="position: relative; margin-left: 0%; height: auto; width: 25%; border-radius: 100%;" src="logo-img.png" alt="">
+      <!-- <img style="padding-top: 15%;" class="headline" src="img1.gif" alt="my-name-img"> -->
+      <h1 style="letter-spacing: 5px; font-family: 'Quicksand', sans-serif; font-size: 250%; margin: 0 0 0 0;">Rakhibul Ahmed</h1>
+      <p style="letter-spacing: 15px;">A Programmer</p>
+    </div>
 
-}
-
-h1 {
-  font-size: 2em;
-  color: #45b29a;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 2em;
-  color: #45b29a;
-  font-family: 'Quicksand', sans-serif;
-  display: inline;
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.2em;
-  line-height: 2;
-  margin: 0 10%;
-  font-style: normal;
-  color: #545454;
-  font-family: 'Quicksand', sans-serif;
-}
+    <div>
+      <img class="cloud-position1" src="cloud.png" alt="cloud-img">
+      <div class="">
+        <img class="cloud-position2" src="cloud.png" alt="cloud-img">
+        <img class="mountain-img" src="land.png" alt="">
+      </div>
+    </div>
 
 
+<!--           Second Row Structure.    -->
+  <hr>
+<div class="">
 
-/************************ First Row Structure. ************************/
+  <div class="second-row">
+    <img id="img-sizeing" src="logo-img.png" alt="">
+    <h1>Hey there.</h1>
+    <p>I'm a Programmer / Web Designer / Developer based in Assam, India. I have
+      a passion for web design and love to create for web and mobile devices.</p>
 
+  </div>
+  <hr>
 
-.headline {
-  width: 60%;
-  padding: 5% 0 10% 0;
-}
+  <div class="skill-row">
 
-.mountain-img {
-  width: 100%;
-}
+    <div class="">
+      <div class="">
+        <img class="" src="workplace.gif" alt="">
+      </div>
 
-.cloud-position1 {
-  position: absolute;
-  top: 240px;
-  right: 100px;
-  height: 30%;
-  width: 30%;
+      <h2 class="content1">Develop what you need.</h2>
+      <p class="content1">I'm a developer, so I know how to create your website to run across devices
+        using the latest technologies available.</p>
+    </div>
 
-}
-.cloud-position2 {
-  position: absolute;
-  top: 340px;
-  left: 15%;
-  height: 20%;
-  width: 20%;
-}
+  </div>
 
+  <hr>
 
-/******************* First Row Structure *********************************/
+  <div class="">
+    <div class="">
+      <img class="girl-img" src="web-design.png" alt="">
+    </div>
 
+    <div class="">
+      <h2>Design what you want.</h2>
+      <p>I like to keep it simple. My goals are to focus on typography, content and
+        conveying the message that you want to send.</p>
+    </div>
+  </div>
 
+    <hr>
 
-.bottom-div {
-  margin: 10% 0;
-  background-color: #45b29a;
-  height: 3em;
-  -webkit-border-radius:5px;
-  width: 15%;
-  border-width: 0;
-  font-size: 1em;
-  color: #1b7f69;
-  margin: 100px auto;
-  display: inline-block;
-  text-decoration: none;
-
-}
-
-
-
-.content-me {
-  padding-top: 1%;
-  background-color: #45b29a;
-  height: 150px;
-  width: 100%;
-}
+    <img style="width: 40%;" src="freelance-work.png" alt="">
+  <div class="">
+    <h1>Available for freelance work.</h1>
+    <p>If you have a project that you want to get started, think you need my help
+      with something or just fancy saying hey, then get in touch.</p>
+  </div>
+</div>
 
 
-.links {
-  padding: 1%;
-}
+  <div>
+    <button class="bottom-div" type="button" name="button"><a href="mailto:rakhibul677@yahoo.com">MESSAGE ME</a></button>
+  </div>
+
+
+    <div class="content-me">
+        <div class="content-me">
+          <a class="links" href="https://www.instagram.com/im_rakhibul_/">Instagram</a>
+          <a class="links" href="https://www.twitter.com/im_rakhibul/">Twitter</a>
+          <a class="links" href="https://www.facebook.com/im.rakhibul/">Facebook</a>
+
+          <div>
+            <p style="color: #EAF6F6; font-weight: bold;">© 2022. All rights are reserved. Design & Developed by <a style="color: #EAF6F6;" href="https://github.com/imrakhibul/">Rakhibul Ahmed</a></p>
+          </div>
+
+        </div>
+
+
+    </div>
+
+
+  </body>
+</html>
