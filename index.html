@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Rakhibul Ahmed - a programmer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body>
     <link rel="stylesheet" href="styles.css">
@@ -13,6 +14,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <!-- Navbar -->
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#contact-contant" style="color: #161515;">im_rakhibul</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-contant">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-contant">Contact Meh</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Type something about Im_rakhibul ..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <div style="padding-bottom: 200px;">
       <img style="position: relative; margin-left: 0%; height: auto; width: 25%; border-radius: 100%;" src="logo-img.png" alt="">
@@ -32,10 +60,10 @@
 
 <!--           Second Row Structure.    -->
   <hr>
-<div class="">
+<div id="about-contant">
 
   <div class="second-row">
-    <img id="img-sizeing" src="1665065528982.jpg" alt="">
+    <img id="img-sizeing" src="logo-img.png" alt="">
     <h1>Hey there.</h1>
     <p>I'm a Programmer / Web Designer / Developer based in Assam, India. I have
       a passion for web design and love to create for web and mobile devices.</p>
@@ -51,7 +79,7 @@
       </div>
 
       <h2 class="content1">Develop what you need.</h2>
-      <p class="content1">I'm a developer, so I know how to create your website to run across devices
+      <p class="content1">I'm a developer, so I know how to create SEXY website to run across devices
         using the latest technologies available.</p>
     </div>
 
@@ -75,7 +103,7 @@
 
     <img style="width: 40%;" src="freelance-work.png" alt="">
   <div class="">
-    <h1>Available for freelance work.</h1>
+    <h1>Available for freelancing.</h1>
     <p>If you have a project that you want to get started, think you need my help
       with something or just fancy saying hey, then get in touch.</p>
   </div>
@@ -87,7 +115,7 @@
   </div>
 
 
-    <div class="content-me">
+    <div id='contact-contant' class="content-me">
         <div class="content-me">
           <a class="links" href="https://www.instagram.com/im_rakhibul_/">Instagram</a>
           <a class="links" href="https://www.twitter.com/im_rakhibul/">Twitter</a>
@@ -102,6 +130,8 @@
 
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/js/myscript.js"></script>
 
   </body>
 </html>
